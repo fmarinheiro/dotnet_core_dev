@@ -1,4 +1,4 @@
-FROM microsoft/dotnet:latest
+FROM mcr.microsoft.com/dotnet/core/sdk:latest
 
 ENV APP_FOLDER=workspace
 ENV HOME=/home/app
